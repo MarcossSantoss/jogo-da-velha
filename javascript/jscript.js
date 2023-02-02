@@ -19,10 +19,10 @@ function verificar(iCasa){
      //modifica o conteudo do vetor
        aiCasas[iCasa]=iVez;
        if(iVez==1){
-           id("img"+iCasa).src ="Imagens/xis.jpg";
+           id("img"+iCasa).src ="imagens/xis.jpg";
            
        }else{
-            id("img"+iCasa).src ="Imagens/bola.jpg";
+            id("img"+iCasa).src ="imagens/bola.jpg";
            
        }
        iVez*= -1; //iVeZ = iVez * -1
